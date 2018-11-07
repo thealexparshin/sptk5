@@ -49,7 +49,7 @@
 #define WORDS_BIG_ENDIAN   ///< Flag indicating if byte order for mashine is big endian
 #define BITNESS          64          ///< Number of machine bits
 
-#define USE_NEW_ABI      0     ///< Flag if new ABI is used
+#define USE_NEW_ABI      1     ///< Flag if new ABI is used
   #define USE_GTEST      1       ///< Flag indicating if GTest library is installed and used
 
 /// @}
