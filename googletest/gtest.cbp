@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="gtest"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\sptk5\;CMake Files\googletest\;CMake Files\googletest\cmake\;CMake Files\themes\;CMake Files\themes\Blue\;CMake Files\themes\Dark\;CMake Files\themes\Default\;CMake Files\themes\E17\;CMake Files\themes\Flat\;CMake Files\themes\Keramic\;CMake Files\themes\OSX\;CMake Files\themes\OSX_Flat\;CMake Files\themes\Opera\;CMake Files\src\;CMake Files\src\sputil\;CMake Files\src\sptk\;CMake Files\src\spdb\;CMake Files\src\drivers\;CMake Files\src\wsdl\;CMake Files\src\test\;CMake Files\examples\;CMake Files\examples\json\;CMake Files\examples\xml\;CMake Files\examples\jwt\;CMake Files\examples\database\;CMake Files\examples\threads\;CMake Files\examples\core\;CMake Files\examples\datasources\;CMake Files\examples\net\;CMake Files\examples\gui\;CMake Files\utilities\;CMake Files\utilities\load_balance\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/alexeyp/workspace/sptk5/googletest"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/alexeyp/workspace/sptk5/googletest/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/alexeyp/workspace/sptk5/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/alexeyp/workspace/sptk5/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/alexeyp/workspace/sptk5/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="/home/alexeyp/workspace/sptk5/lib/libgtest_main.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexeyp/workspace/sptk5/googletest"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGTEST_CREATE_SHARED_LIBRARY=1"/>
+					<Add option="-D_GLIBCXX_USE_CXX11_ABI=1"/>
+					<Add option="-DSPTK_LOCK_DEBUG"/>
+					<Add directory="/opt/oracle/instantclient_18_3/sdk/include"/>
+					<Add directory="/home/alexeyp/workspace/sptk5"/>
+					<Add directory="/home/alexeyp/workspace/sptk5/googletest/include"/>
+					<Add directory="/home/alexeyp/workspace/sptk5/googletest"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/alexeyp/workspace/sptk5/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/alexeyp/workspace/sptk5/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/alexeyp/workspace/sptk5/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/alexeyp/workspace/sptk5/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="/home/alexeyp/workspace/sptk5/lib/libgtest_main.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexeyp/workspace/sptk5/googletest"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGTEST_CREATE_SHARED_LIBRARY=1"/>
+					<Add option="-D_GLIBCXX_USE_CXX11_ABI=1"/>
+					<Add option="-DSPTK_LOCK_DEBUG"/>
+					<Add directory="/opt/oracle/instantclient_18_3/sdk/include"/>
+					<Add directory="/home/alexeyp/workspace/sptk5"/>
+					<Add directory="/home/alexeyp/workspace/sptk5/googletest/include"/>
+					<Add directory="/home/alexeyp/workspace/sptk5/googletest"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/alexeyp/workspace/sptk5/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/alexeyp/workspace/sptk5/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/alexeyp/workspace/sptk5/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/alexeyp/workspace/sptk5/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="/home/alexeyp/workspace/sptk5/lib/libgtest.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexeyp/workspace/sptk5/googletest"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGTEST_CREATE_SHARED_LIBRARY=1"/>
+					<Add option="-D_GLIBCXX_USE_CXX11_ABI=1"/>
+					<Add option="-DSPTK_LOCK_DEBUG"/>
+					<Add directory="/opt/oracle/instantclient_18_3/sdk/include"/>
+					<Add directory="/home/alexeyp/workspace/sptk5"/>
+					<Add directory="/home/alexeyp/workspace/sptk5/googletest/include"/>
+					<Add directory="/home/alexeyp/workspace/sptk5/googletest"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/alexeyp/workspace/sptk5/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/alexeyp/workspace/sptk5/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/alexeyp/workspace/sptk5/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/alexeyp/workspace/sptk5/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="/home/alexeyp/workspace/sptk5/lib/libgtest.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexeyp/workspace/sptk5/googletest"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGTEST_CREATE_SHARED_LIBRARY=1"/>
+					<Add option="-D_GLIBCXX_USE_CXX11_ABI=1"/>
+					<Add option="-DSPTK_LOCK_DEBUG"/>
+					<Add directory="/opt/oracle/instantclient_18_3/sdk/include"/>
+					<Add directory="/home/alexeyp/workspace/sptk5"/>
+					<Add directory="/home/alexeyp/workspace/sptk5/googletest/include"/>
+					<Add directory="/home/alexeyp/workspace/sptk5/googletest"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/alexeyp/workspace/sptk5/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/alexeyp/workspace/sptk5/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/alexeyp/workspace/sptk5/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/alexeyp/workspace/sptk5/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/alexeyp/workspace/sptk5/googletest/src/gtest-all.cc">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="/home/alexeyp/workspace/sptk5/googletest/src/gtest_main.cc">
+			<Option target="gtest_main"/>
+		</Unit>
+		<Unit filename="/home/alexeyp/workspace/sptk5/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/alexeyp/workspace/sptk5/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/alexeyp/workspace/sptk5/cmake/CXX17.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/alexeyp/workspace/sptk5/cmake/FindFLTK13.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/alexeyp/workspace/sptk5/cmake/FindFirebird.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/alexeyp/workspace/sptk5/cmake/FindMySQL.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/alexeyp/workspace/sptk5/cmake/FindOracle.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/alexeyp/workspace/sptk5/cmake/FindPCRE.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/alexeyp/workspace/sptk5/cmake/FindPostgreSQL.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/alexeyp/workspace/sptk5/cmake/OSType.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/alexeyp/workspace/sptk5/sptk5/sptk-config.h.cmake">
+			<Option virtualFolder="CMake Files\sptk5\"/>
+		</Unit>
+		<Unit filename="/home/alexeyp/workspace/sptk5/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\googletest\"/>
+		</Unit>
+		<Unit filename="/home/alexeyp/workspace/sptk5/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/alexeyp/workspace/sptk5/themes/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\themes\"/>
+		</Unit>
+		<Unit filename="/home/alexeyp/workspace/sptk5/themes/Blue/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\themes\Blue\"/>
+		</Unit>
+		<Unit filename="/home/alexeyp/workspace/sptk5/themes/Dark/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\themes\Dark\"/>
+		</Unit>
+		<Unit filename="/home/alexeyp/workspace/sptk5/themes/Default/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\themes\Default\"/>
+		</Unit>
+		<Unit filename="/home/alexeyp/workspace/sptk5/themes/E17/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\themes\E17\"/>
+		</Unit>
+		<Unit filename="/home/alexeyp/workspace/sptk5/themes/Flat/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\themes\Flat\"/>
+		</Unit>
+		<Unit filename="/home/alexeyp/workspace/sptk5/themes/Keramic/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\themes\Keramic\"/>
+		</Unit>
+		<Unit filename="/home/alexeyp/workspace/sptk5/themes/OSX/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\themes\OSX\"/>
+		</Unit>
+		<Unit filename="/home/alexeyp/workspace/sptk5/themes/OSX_Flat/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\themes\OSX_Flat\"/>
+		</Unit>
+		<Unit filename="/home/alexeyp/workspace/sptk5/themes/Opera/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\themes\Opera\"/>
+		</Unit>
+		<Unit filename="/home/alexeyp/workspace/sptk5/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/home/alexeyp/workspace/sptk5/src/sputil/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\sputil\"/>
+		</Unit>
+		<Unit filename="/home/alexeyp/workspace/sptk5/src/sptk/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\sptk\"/>
+		</Unit>
+		<Unit filename="/home/alexeyp/workspace/sptk5/src/spdb/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\spdb\"/>
+		</Unit>
+		<Unit filename="/home/alexeyp/workspace/sptk5/src/drivers/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\drivers\"/>
+		</Unit>
+		<Unit filename="/home/alexeyp/workspace/sptk5/src/wsdl/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\wsdl\"/>
+		</Unit>
+		<Unit filename="/home/alexeyp/workspace/sptk5/src/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\test\"/>
+		</Unit>
+		<Unit filename="/home/alexeyp/workspace/sptk5/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\"/>
+		</Unit>
+		<Unit filename="/home/alexeyp/workspace/sptk5/examples/json/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\json\"/>
+		</Unit>
+		<Unit filename="/home/alexeyp/workspace/sptk5/examples/xml/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\xml\"/>
+		</Unit>
+		<Unit filename="/home/alexeyp/workspace/sptk5/examples/jwt/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\jwt\"/>
+		</Unit>
+		<Unit filename="/home/alexeyp/workspace/sptk5/examples/database/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\database\"/>
+		</Unit>
+		<Unit filename="/home/alexeyp/workspace/sptk5/examples/threads/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\threads\"/>
+		</Unit>
+		<Unit filename="/home/alexeyp/workspace/sptk5/examples/core/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\core\"/>
+		</Unit>
+		<Unit filename="/home/alexeyp/workspace/sptk5/examples/datasources/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\datasources\"/>
+		</Unit>
+		<Unit filename="/home/alexeyp/workspace/sptk5/examples/net/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\net\"/>
+		</Unit>
+		<Unit filename="/home/alexeyp/workspace/sptk5/examples/gui/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\gui\"/>
+		</Unit>
+		<Unit filename="/home/alexeyp/workspace/sptk5/utilities/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\utilities\"/>
+		</Unit>
+		<Unit filename="/home/alexeyp/workspace/sptk5/utilities/load_balance/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\utilities\load_balance\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
